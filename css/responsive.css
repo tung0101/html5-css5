@@ -1,0 +1,413 @@
+@media (max-width: 576px) {
+    .body {
+        width: 100%;
+    }
+    .banner .banner_img {
+        text-align: center;
+        width: 100%;
+        height: 175px;
+    }
+    .container_sp {
+        margin-left: 5px;
+        width: auto;
+    }
+    .container_sp h3 {
+        width: 270px;
+    }
+    .container_sp .seller {
+        width: 60px;
+        height: 20px;
+        background-color: red;
+        /* padding: 3px; */
+        border-radius: 5px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .container_sp .sp {
+        /* margin-left: -20px;
+        margin-top: 10px; */
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .container_sp.car {
+        /* margin-left: 20px; */
+        /* margin-top: 10px; */
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        /* padding: 10px; */
+        position: relative;
+    }
+    .container_sp .sp .car .details h4 {
+        width: 140px;
+        /* margin-top: 10px; */
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .container_sp .sp .car .pricing h3 {
+        width: 140px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .container_sp .car .image img {
+        height: 100px;
+        width: 100px;
+    }
+    .container_sp .sp .car .buttons {
+        width: 140px;
+        display: flex;
+        margin-top: 0px;
+    }
+    .container_sp .sp .car .buttons .xct {
+        width: 80px;
+        height: 35px;
+        font-size: 9px;
+        margin-right: 5px;
+        border: none;
+        background-color: blue;
+        border: 5px solid blue;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .container_sp .sp .car .buttons .tvg {
+        width: 110px;
+        height: 35px;
+        font-size: 9px;
+        background-color: orangered;
+        border: 5px solid orangered;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    footer {
+        margin-top: 0;
+        /* margin-bottom: 100px; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #4169E1;
+        width: auto;
+        height: auto;
+        padding-top: 40px;
+        color: #fff;
+    }
+    .footer-menu ul {
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-menu ul li a {
+        padding-right: 10px;
+        display: none;
+    }
+    .footer-bottom {
+        background-color: #4169E1;
+        width: 100%;
+        height: 90px;
+        padding: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .footer-bottom p a {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex img {
+        width: 75px;
+        height: 75px;
+    }
+    .body {
+        width: 100%;
+    }
+    .banner img {
+        text-align: center;
+        width: 100%;
+        height: 100px;
+    }
+    .container_sp {
+        margin-left: 5px;
+        width: auto;
+    }
+    .container_sp h3 {
+        width: 270px;
+    }
+    .container_sp .seller {
+        width: 60px;
+        height: 20px;
+        background-color: red;
+        /* padding: 3px; */
+        border-radius: 5px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .container_sp .sp {
+        /* margin-left: -20px;
+        margin-top: 10px; */
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .container_sp.car {
+        /* margin-left: 20px; */
+        /* margin-top: 10px; */
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        /* padding: 10px; */
+        position: relative;
+    }
+    .container_sp .sp .car .details h4 {
+        width: 140px;
+        /* margin-top: 10px; */
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .container_sp .sp .car .pricing h3 {
+        width: 140px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .container_sp .car .image img {
+        height: 100px;
+        width: 100px;
+    }
+    .container_sp .sp .car .buttons {
+        width: 140px;
+        display: flex;
+        margin-top: 0px;
+    }
+    .container_sp .sp .car .buttons .xct {
+        width: 80px;
+        height: 35px;
+        font-size: 9px;
+        margin-right: 5px;
+        border: none;
+        background-color: blue;
+        border: 5px solid blue;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .container_sp .sp .car .buttons .tvg {
+        width: 110px;
+        height: 35px;
+        font-size: 9px;
+        background-color: orangered;
+        border: 5px solid orangered;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+}
+
+@media(max-width: 992px) {
+    .d-flex img {
+        width: 75px;
+        height: 75px;
+    }
+    .body {
+        width: 100%;
+    }
+    .banner img {
+        text-align: center;
+        width: 100%;
+        height: 100px;
+    }
+    .container_sp {
+        margin-left: 5px;
+        width: auto;
+    }
+    .container_sp h3 {
+        width: 270px;
+    }
+    .container_sp .seller {
+        width: 60px;
+        height: 20px;
+        background-color: red;
+        /* padding: 3px; */
+        border-radius: 5px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .container_sp .sp {
+        /* margin-left: -20px;
+        margin-top: 10px; */
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .container_sp.car {
+        /* margin-left: 20px; */
+        /* margin-top: 10px; */
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        /* padding: 10px; */
+        position: relative;
+    }
+    .container_sp .sp .car .details h4 {
+        width: 225px;
+        /* margin-top: 10px; */
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .container_sp .sp .car .pricing h3 {
+        width: 225px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .container_sp .car .image img {
+        height: 200px;
+        width: 225px;
+    }
+    .container_sp .sp .car .buttons {
+        width: 225px;
+        display: flex;
+        margin-top: 0px;
+    }
+    .container_sp .sp .car .buttons .xct {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-right: 5px;
+        border: none;
+        background-color: blue;
+        border: 5px solid blue;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .container_sp .sp .car .buttons .tvg {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        background-color: orangered;
+        border: 5px solid orangered;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+}
+
+@media(max-width: 1280px) {
+    .d-flex img {
+        width: 75px;
+        height: 75px;
+    }
+    .body {
+        width: 100%;
+    }
+    .banner img {
+        text-align: center;
+        width: 100%;
+        height: 100px;
+    }
+    .container_sp {
+        margin-left: 5px;
+        width: auto;
+    }
+    .container_sp h3 {
+        width: 270px;
+    }
+    .container_sp .seller {
+        width: 60px;
+        height: 20px;
+        background-color: red;
+        /* padding: 3px; */
+        border-radius: 5px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .container_sp .sp {
+        /* margin-left: -20px;
+        margin-top: 10px; */
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .container_sp.car {
+        /* margin-left: 20px; */
+        /* margin-top: 10px; */
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        /* padding: 10px; */
+        position: relative;
+    }
+    .container_sp .sp .car .details h4 {
+        width: 140px;
+        /* margin-top: 10px; */
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .container_sp .sp .car .pricing h3 {
+        width: 140px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .container_sp .car .image img {
+        height: 100px;
+        width: 100px;
+    }
+    .container_sp .sp .car .buttons {
+        width: 140px;
+        display: flex;
+        margin-top: 0px;
+    }
+    .container_sp .sp .car .buttons .xct {
+        width: 80px;
+        height: 35px;
+        font-size: 9px;
+        margin-right: 5px;
+        border: none;
+        background-color: blue;
+        border: 5px solid blue;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .container_sp .sp .car .buttons .tvg {
+        width: 120px;
+        height: 35px;
+        font-size: 9px;
+        background-color: orangered;
+        border: 5px solid orangered;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+}

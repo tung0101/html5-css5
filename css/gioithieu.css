@@ -1,0 +1,41 @@
+.tile1 h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+}
+
+.tile1 p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.loren {
+    height: 120px;
+    width: 1300px;
+    left: 119px;
+    top: 198px;
+    border-radius: nullpx;
+}
+
+.loren p {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.gt1 {
+    margin-left: 240px;
+}
+
+.loren1 h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.loren1 p {
+    text-align: left;
+    margin-left: 650px;
+    font-size: 20px;
+    margin-top: 20px;
+}

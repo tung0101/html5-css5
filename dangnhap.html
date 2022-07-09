@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <script src="js/dangnhap.js"></script>
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand name" style="margin-left: 120px; font-weight: 700; font-size: 28px; margin-bottom: 10px;" href="index.html">
+                Shina.com</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="gioithieu.html">GIỚI
+                            THIỆU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sanpham.html">SẢN PHẨM</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="lienhe.html">LIÊN HỆ</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="dangnhap.html">ĐĂNG NHẬP</a> </li>
+                </ul>
+                <div class="timkiem">
+                    <form class="d-flex searchitem"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-bottom-left-radius:50px; border-bottom-right-radius: 50px; border-top-left-radius:50px; border-top-right-radius: 50px;">
+                        <i class="fa fa-search"></i> </form>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="giohang.html">GIỎ HÀNG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="tile" style="margin-left:80px; margin-top: 20px;"><span style="color: black ;">Trang chủ</span> > <span style="color: red;">Đăng nhập</span><br><span style="font-size: 20px; margin-top: 20px;">ĐĂNG NHẬP</span> </div>
+    <section class="main-section">
+        <div class="container">
+            <div class="user signinbox">
+                <div class="imagebox"> <img src="img/5y6Y6Gx.png"> </div>
+                <div class="formbox">
+                    <div class="form">
+                        <h2>Đăng nhập</h2> <input type="text" placeholder="username"> <input type="password" placeholder="Password"> <input type="submit" value="Đăng nhập" style="width: 200px">
+                        <p class="signup-text">Không có tài khoản? <a href="#" onClick="toggleform();">Đăng ký</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="user signupbox">
+                <div class="formbox">
+                    <div class="form">
+                        <h2>Đăng ký</h2> <input type="text" placeholder="Name"> <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password"> <input type="submit" value="Đăng Ký">
+                        <p class="signup-text">Bạn đã có tài khoản?
+                            <a href="#" onClick="toggleform();">Đăng nhập</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="imagebox"> <img src="img/kPlWgwj.png"> </div>
+            </div>
+        </div>
+    </section>
+    <footer style="margin-top: 50px;">
+        <div class="footer-content">
+            <h2 style="color: red;">Shina.com</h2>
+            <p style="color: white; font-size: 18px;">Tìm kiếm sản phẩm tốt nhất ngay bây giờ trong tầm tay của bạn.
+            </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>copyright &copy;2022 <a href="#">Nguyễn Doãn Tùng</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="">Trang Chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
